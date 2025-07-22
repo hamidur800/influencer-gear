@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* All-Font-Family */
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h4 {
+  font-family: "Inter", sans-serif;
+}
+
+h5 {
+  font-family: "Roboto", sans-serif;
+}
+
+h6 {
+  font-family: "Manrope", sans-serif;
+}
+
+
+/* Sheard Style */
+
+.dark-01 {
+  color: rgba(58, 58, 58, 1);
+}
+
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.header-menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-logo-text {                                                                                                                       
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+
+.header-menu a {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 10px;
+  text-decoration: none;
+  color: rgba(58, 58, 58, 1);
+}
+
+.bx.bx-search {
+  height: 24px;
+  width: 24px;
+  padding: 5px 0;
+}
+
+.bx.bx-cart {
+  height: 24px;
+  width: 24px;
+  padding: 5px 0;
+}
+
+/* banner-section-style */
+
+.banner-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px auto;
+}
+
+
+.banner-title {
+  font-size: 3.25rem;
+  font-weight: bold;
+  max-width: 582px;
+}
+
+.banner-discription {
+  font-size: 1rem;
+  font-weight: 600;
+  max-width: 505px;
+  margin: 16px 0px;
+}
+
+.primary-btns {
+  border: none;
+  border-radius: 44px;
+}
+
+.banner-btn {
+  display: flex;
+  align-items: center;
+  width: 196px;
+  height: 44px;
+  justify-content: center;
+  background-color: rgba(224, 44, 109, 1);
+  border-radius: 44px;
+}
+
+.banner-right {
+  height: 475px;
+  width: 475px;
+  background-image: url("../images/Circle design.svg");
+}
+
+.banner-img-1 {
+  
+  width: 100%;
+}
