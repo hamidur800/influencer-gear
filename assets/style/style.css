@@ -106,6 +106,7 @@ h6 {
 .banner-btn {
   display: flex;
   align-items: center;
+  color: white;
   width: 196px;
   height: 44px;
   justify-content: center;
@@ -115,11 +116,89 @@ h6 {
 
 .banner-right {
   height: 475px;
-  width: 475px;
+  max-width: 475px;
   background-image: url("../images/Circle design.svg");
+  background-repeat: no-repeat;
+
 }
 
 .banner-img-1 {
-  
   width: 100%;
+  object-fit: contain;
+}
+
+/* banner-icons-sections */
+
+.banner-icons {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-bottom-icon {
+  margin: 100px 0px 80px;
+}
+
+/* product-section-style */
+
+.popular-collection-section {
+  margin: 24px auto;
+}
+
+.collection-section-title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  text-align: center;
+  margin: 30px auto;
+}
+
+
+.collection-all-product {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.collection-card {
+  max-width: 330px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.product-desc {
+  margin-top: 5px;
+  max-width: 181px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+}
+
+.product-name {
+  font-size: 1.75rem;
+  font-weight: 500;
+  margin: 5px auto;
+}
+
+
+.rating-value {
+  font-size: 0.875rem;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+
+.collection-see-more {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 30px;
+}
+
+.collection-see-more button {
+  outline: none;
+  border: none;
+  background-color: white;
+  color: rgba(224, 44, 109, 0.87);
+  cursor: pointer;
 }
